@@ -1,0 +1,6 @@
+@use 'variable' as *;
+
+* {
+  box-sizing: border-box;
+  font-family: $font-family;
+}

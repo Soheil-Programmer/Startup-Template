@@ -1,0 +1,18 @@
+$theme: light;
+$font-family: 'Raleway', 'sans-series';
+$light-theme: (
+  color-bg-dark: #000,
+  color-bg-light: #fff,
+  color-primary: #f44336,
+  color-text-dark: #000,
+  color-text-light: #fff,
+  color-border: #ddd,
+);
+$dark-theme: (
+  color-bg-dark: #000,
+  color-bg-light: #fff,
+  color-primary: #b83229,
+  color-text-dark: #000,
+  color-text-light: #fff,
+  color-border: #a1a1a1,
+);

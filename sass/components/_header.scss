@@ -1,0 +1,17 @@
+@use "../base" as *;
+
+header {
+
+  .btn {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: theme-color(color-bg-dark);
+    color: theme-color(color-text-light);
+    @include transition(all);
+
+    &:hover {
+      background-color: color-shade(theme-color(color-bg-dark), 15%);
+    }
+  }
+}

@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    font-family: "Raleway", "sans-series";
+}
+
+@media (max-width: 700px) {
+    .hero {
+        text-align: center;
+        background-position: center;
+    }
+
+    .hero h1 {
+        font-size: 1.8rem;
+        line-height: 1.4;
+    }
+
+    .hero p {
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+
+    .hero .btn {
+        width: 80%;
+        font-size: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    #about {
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    #team {
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    #work {
+        max-width: 50%;
+        margin-bottom: 1rem;
+    }
+
+    #pricing {
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    #contact form {
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    footer .btn {
+        width: 80%;
+    }
+}
+
+/*# sourceMappingURL=style.css.map */

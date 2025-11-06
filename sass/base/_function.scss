@@ -1,0 +1,21 @@
+@use "variable" as *;
+
+@function theme-color($key) {
+  @if $theme == light {
+    @return map-get($light-theme, $key);
+  }
+
+  @else {
+    @return map-get($dark-theme, $key);
+  }
+}
+
+@function color-shade($color, $percentage) {
+  @if $theme == light {
+    @return darken($color, $percentage);
+  }
+
+  @else {
+    @return lighten($color, $percentage);
+  }
+}
